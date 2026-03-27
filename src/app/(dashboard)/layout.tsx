@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import "@/app/(frontend)/globals.css";
 import { AdminLayout } from "@/components/AdminLayout";
 import { AdminAuthProvider } from "@/components/AdminAuthProvider";
 import { ThemeInjector } from "@/components/ThemeInjector";
 import ReduxProvider from "@/redux/ReduxProvider";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "KalpGo Admin Dashboard",
@@ -19,7 +17,7 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className={`${inter.className} antialiased`}>
+    <div className={`${GeistSans.className} antialiased`}>
       <AdminAuthProvider>
         <ReduxProvider>
           <ThemeInjector />

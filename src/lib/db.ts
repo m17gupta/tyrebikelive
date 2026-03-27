@@ -29,12 +29,15 @@ export async function connectToDatabase(): Promise<MongoClient> {
     ? "MONGO_URI"
     : process.env.MONGODB_URI
       ? "MONGODB_URI"
-      : "NONE";
-  const MONGODB_URI = process.env.MONGO_URI || process.env.MONGODB_URI;
+      : process.env.DATABASE_URI
+        ? "DATABASE_URI"
+        : "NONE";
+  const MONGODB_URI =
+    process.env.MONGO_URI || process.env.MONGODB_URI || process.env.DATABASE_URI;
 
   if (!MONGODB_URI) {
     console.error(
-      "CRITICAL: No connection string found (checked MONGO_URI and MONGODB_URI)",
+      "CRITICAL: No connection string found (checked MONGO_URI, MONGODB_URI, and DATABASE_URI)",
     );
     throw new Error("Missing MongoDB connection string");
   }
