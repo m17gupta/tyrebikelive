@@ -1,0 +1,397 @@
+{
+  "HomePage": {
+    "title": "哈囉，世界！",
+    "about": "前往關於我們頁面"
+  },
+  "LocaleSwitch": {
+    "label": "變更語言",
+    "locale": "{locale, select, en {English} zh {繁體中文} hr {Hrvatski} pl {Polski} other {Unknown}}"
+  },
+  "Header": {
+    "home": "首頁",
+    "about": "關於我們",
+    "products": "產品",
+    "contact": "聯絡我們",
+    "store-locator": "門市查詢",
+    "wholesale": "批發",
+    "cart": "購物車",
+    "phone": "(714)639-1201",
+    "email": "contact@khfood.com",
+    "free-shipping": "美國境內免運費",
+    "languages": "語言",
+    "my-account": "我的帳戶",
+    "history": "歷史",
+    "nutrition": "營養",
+    "process": "製程",
+    "domestic": "國內",
+    "international": "國際"
+  },
+  "Breadcrumbs": {
+    "products": "產品"
+  },
+  "ProductDetails": {
+    "add-to-cart": "加入購物車",
+    "product-unavailable": "商品無法購買",
+    "description": "商品描述",
+    "price": "價格",
+    "color": "顏色",
+    "choose-color": "選擇顏色",
+    "size": "尺寸",
+    "choose-size": "選擇尺寸",
+    "product-info": "商品資訊",
+    "reviews": "評論",
+    "sizing-chart": "查看尺寸表",
+    "additional-details": "更多細節",
+    "add-to-favs": "加入收藏",
+    "stock-left": "剩餘庫存：",
+    "maximum-stock": "您已將此商品加入購物車的最大數量。"
+  },
+  "ProductList": {
+    "variants-singular": "款式",
+    "variants-plural": "款式",
+    "filters": "篩選",
+    "categories": "分類",
+    "products": "商品",
+    "close-filters": "關閉篩選",
+    "sort": "排序",
+    "most-popular": "最受歡迎",
+    "newest": "最新商品",
+    "price-low-to-high": "價格：由低到高",
+    "price-high-to-low": "價格：由高到低",
+    "color": "顏色",
+    "size": "尺寸"
+  },
+  "Cart": {
+    "title": "購物車",
+    "close-panel": "關閉",
+    "remove": "移除",
+    "subtotal": "小計",
+    "subtotal-info": "運費將在結帳時計算。",
+    "checkout": "前往結帳",
+    "or": "或",
+    "continue-shopping": "繼續購物"
+  },
+  "WishList": {
+    "title": "願望清單",
+    "close-panel": "關閉",
+    "remove": "移除",
+    "add-to-cart": "加入購物車",
+    "unavailable": "商品無法購買"
+  },
+  "LoginForm": {
+    "title": "登入您的帳戶",
+    "email": "電子郵件地址",
+    "password": "密碼",
+    "submit": "登入",
+    "forgot-password": "忘記密碼？",
+    "no-account": "還沒有帳號？",
+    "register-now": "立即註冊！",
+    "verified-success": "電子郵件驗證成功，您現在可以登入。",
+    "verified-fail": "電子郵件驗證失敗，請重試或聯絡客服。",
+    "errors": {
+      "email": "無效的電子郵件地址",
+      "email-empty": "電子郵件地址不能為空",
+      "password": "密碼不能為空",
+      "auth": "電子郵件或密碼錯誤",
+      "server-error": "系統錯誤，請聯絡客服。"
+    }
+  },
+  "RegisterForm": {
+    "title": "建立帳戶",
+    "email": "電子郵件地址",
+    "password": "密碼",
+    "confirm-password": "確認密碼",
+    "submit": "註冊",
+    "success": "帳戶建立成功。我們已寄送確認信至您的信箱。",
+    "have-account": "已經有帳戶了？",
+    "login-now": "立即登入！",
+    "errors": {
+      "email": "無效的電子郵件地址",
+      "email-empty": "電子郵件地址不能為空",
+      "password": "密碼不能為空",
+      "password-length": "密碼至少需 8 個字元",
+      "passwords-mismatch": "兩次密碼輸入不一致",
+      "server-error": "系統錯誤，請聯絡客服。"
+    }
+  },
+  "CheckoutFormServer": {
+    "checkout": "結帳"
+  },
+  "CheckoutForm": {
+    "form": {
+      "buy-as": "購買身分",
+      "individual": "個人",
+      "company": "公司",
+      "shipping-address": "收貨地址",
+      "other-invoice": "我想使用不同的發票資料",
+      "full-name": "姓名或公司名稱",
+      "full-name-placeholder": "王小明",
+      "tin": "統一編號",
+      "tin-placeholder": "123-456-78-90",
+      "address": "地址",
+      "address-placeholder": "中山路 123 號",
+      "city": "城市",
+      "city-placeholder": "台北",
+      "country": "國家",
+      "country-placeholder": "美國",
+      "region": "地區",
+      "region-placeholder": "紐約州",
+      "email": "電子郵件",
+      "email-placeholder": "example@example.com",
+      "phone": "電話",
+      "phone-placeholder": "+1 234 567 890",
+      "postal-code": "郵遞區號",
+      "postal-code-placeholder": "10001",
+      "delivery-method": "運送方式",
+      "payment-method": "付款方式",
+      "change": "變更",
+      "invoice-data": "發票資料",
+      "no-shipping": "暫無可用運送方式，請聯絡客服。",
+      "internal-server-error": "發生未知錯誤，請聯絡客服。"
+    },
+    "change-address-dialog": {
+      "change-address": "變更地址",
+      "add-new": "新增地址",
+      "save": "儲存"
+    },
+    "add-address-dialog": {
+      "add-address": "新增地址",
+      "save": "儲存",
+      "saving": "儲存中..."
+    },
+    "countries": {
+      "ad": "安道爾",
+      "al": "阿爾巴尼亞",
+      "at": "奧地利",
+      "ba": "波士尼亞與赫塞哥維納",
+      "be": "比利時",
+      "bg": "保加利亞",
+      "by": "白俄羅斯",
+      "ch": "瑞士",
+      "cy": "塞浦路斯",
+      "cz": "捷克共和國",
+      "de": "德國",
+      "dk": "丹麥",
+      "ee": "愛沙尼亞",
+      "es": "西班牙",
+      "fi": "芬蘭",
+      "fr": "法國",
+      "gb": "英國",
+      "gr": "希臘",
+      "hr": "克羅埃西亞",
+      "hu": "匈牙利",
+      "ie": "愛爾蘭",
+      "is": "冰島",
+      "it": "義大利",
+      "li": "列支敦士登",
+      "lt": "立陶宛",
+      "lu": "盧森堡",
+      "lv": "拉脫維亞",
+      "mc": "摩納哥",
+      "md": "摩爾多瓦",
+      "me": "蒙特內哥羅",
+      "mk": "北馬其頓",
+      "mt": "馬爾他",
+      "nl": "荷蘭",
+      "no": "挪威",
+      "pl": "波蘭",
+      "pt": "葡萄牙",
+      "ro": "羅馬尼亞",
+      "rs": "塞爾維亞",
+      "ru": "俄羅斯",
+      "se": "瑞典",
+      "si": "斯洛維尼亞",
+      "sk": "斯洛伐克",
+      "sm": "聖馬利諾",
+      "ua": "烏克蘭",
+      "va": "梵蒂岡",
+      "us": "美國",
+      "other": "其他"
+    },
+    "errors": {
+      "invoice": {
+        "name": "名稱不能為空",
+        "address": "地址不能為空",
+        "city": "城市不能為空",
+        "country": "國家不能為空",
+        "region": "地區不能為空",
+        "postalCode": "郵遞區號不能為空",
+        "tin": "統一編號不能為空"
+      },
+      "shipping": {
+        "name": "姓名不能為空",
+        "address": "地址不能為空",
+        "city": "城市不能為空",
+        "country": "國家不能為空",
+        "region": "地區不能為空",
+        "postalCode": "郵遞區號不能為空",
+        "phone": "無效的電話號碼",
+        "email": "無效的電子郵件地址"
+      },
+      "deliveryMethod": "請選擇運送方式",
+      "paymentMethod": "請選擇付款方式"
+    }
+  },
+  "DeliveryMethods": {
+    "inpost-pickup": "InPost 取件櫃",
+    "inpost-courier": "InPost 快遞",
+    "choose-pickup": "選擇取件點",
+    "close": "關閉"
+  },
+  "OrderSummary": {
+    "subtotal": "小計",
+    "shipping": "運費",
+    "total": "總計",
+    "confirm": "確認訂單",
+    "processing": "處理中...",
+    "remove": "移除",
+    "items-in-cart": "購物車中的商品",
+    "order-summary": "訂單摘要"
+  },
+  "Account": {
+    "navigation": {
+      "orders": "訂單",
+      "settings": "設定",
+      "orders-data": "出貨資料",
+      "help": "協助"
+    },
+    "orders": {
+      "title": "訂單",
+      "pending": "<yellow>待處理</yellow>",
+      "paid": "<green>已付款</green>",
+      "unpaid": "<red>未付款</red>",
+      "processing": "<yellow>處理中</yellow>",
+      "shipped": "<green>已出貨</green>",
+      "completed": "<green>已完成</green>",
+      "cancelled": "<red>已取消</red>",
+      "returned": "<red>已退貨</red>"
+    },
+    "orders-data": {
+      "title": "出貨資料",
+      "add-new": "新增地址",
+      "set-as-default": "設定為預設"
+    },
+    "settings": {
+      "title": "帳戶設定",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "birthDate": "生日",
+      "email": "電子郵件地址",
+      "password": "密碼",
+      "change-password": "變更密碼",
+      "old-password": "舊密碼",
+      "new-password": "新密碼",
+      "confirm-password": "確認新密碼",
+      "save": "儲存",
+      "update": "更新",
+      "password-form": {
+        "success": "密碼已成功更新，您可以關閉此視窗。",
+        "errors": {
+          "old-password": "舊密碼不能為空",
+          "new-password": "新密碼不能為空",
+          "password-length": "密碼至少需 8 個字元",
+          "passwords-mismatch": "兩次密碼輸入不一致",
+          "password-incorrect": "舊密碼不正確",
+          "password-same": "新密碼不能與舊密碼相同",
+          "server-error": "系統錯誤，請聯絡客服。"
+        }
+      }
+    },
+    "wrapper": {
+      "my-account": "我的帳戶",
+      "logout": "登出"
+    }
+  },
+  "Order": {
+    "thank-you": "感謝您！",
+    "pending": {
+      "title": "您的訂單正在待處理。",
+      "subtitle": "請稍候付款處理完成。訂單 {orderID}"
+    },
+    "paid": {
+      "title": "付款已完成。",
+      "subtitle": "我們將盡快開始處理您的訂單。訂單 {orderID}"
+    },
+    "unpaid": {
+      "title": "付款失敗。",
+      "subtitle": "請再試一次或聯絡客服。訂單 {orderID}"
+    },
+    "processing": {
+      "title": "我們正在處理您的訂單。",
+      "subtitle": "訂單 {orderID} 即將出貨。"
+    },
+    "shipped": {
+      "title": "正在運送中！",
+      "subtitle": "您的訂單 {orderID} 已經出貨。"
+    },
+    "completed": {
+      "title": "已完成！",
+      "subtitle": "您已收到訂單 {orderID}。"
+    },
+    "cancelled": {
+      "title": "已取消。",
+      "subtitle": "訂單 {orderID} 已被取消。"
+    },
+    "returned": {
+      "title": "已退回。",
+      "subtitle": "訂單 {orderID} 已被退回。"
+    },
+    "tracking-number": "追蹤號碼：",
+    "your-order": "您的訂單",
+    "items": "商品",
+    "quantity": "數量",
+    "price": "價格",
+    "your-information": "您的資訊",
+    "shipping-address": "收貨地址",
+    "shipping-method": "運送方式",
+    "summary": "摘要",
+    "subtotal": "小計",
+    "shipping": "運費",
+    "total": "總計",
+    "pickup-point": "取件地點"
+  },
+  "Emails": {
+    "reset-password": {
+      "greeting": "您好 {name}，",
+      "message": "有人請求重設您的帳戶密碼。如果不是您本人，請忽略此郵件。",
+      "subject": "重設密碼",
+      "button": "重設密碼",
+      "body": "點擊以下連結即可重設密碼"
+    },
+    "verify-email": {
+      "greeting": "您好 {name}，",
+      "subject": "驗證您的電子郵件",
+      "button": "驗證電子郵件",
+      "body": "請點擊下方連結完成電子郵件驗證"
+    },
+    "welcome": {
+      "greeting": "您好 {name}，",
+      "preview": "歡迎來到我們的商店！很高興有您加入",
+      "subject": "歡迎加入我們的商店",
+      "body": "感謝您在我們的商店建立帳戶。希望您能享受購物體驗。",
+      "button": "開始購物"
+    }
+  },
+  "ResetPasswordForm": {
+    "new-password": "新密碼",
+    "confirm-password": "確認密碼",
+    "change-password": "變更密碼",
+    "title": "重設密碼",
+    "errors": {
+      "old-password": "舊密碼不能為空",
+      "new-password": "新密碼不能為空",
+      "password-length": "密碼至少需 8 個字元",
+      "passwords-mismatch": "兩次密碼輸入不一致",
+      "password-incorrect": "舊密碼不正確",
+      "password-same": "新密碼不能與舊密碼相同",
+      "server-error": "系統錯誤，請聯絡客服。"
+    }
+  },
+  "Search": {
+    "no-results": "找不到結果。",
+    "results": "搜尋結果：",
+    "search": "搜尋...",
+    "categories": "分類",
+    "products": "商品"
+  }
+}

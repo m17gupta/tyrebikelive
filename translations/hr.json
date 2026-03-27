@@ -1,0 +1,375 @@
+{
+  "HomePage": {
+    "title": "Pozdrav svijete!",
+    "about": "Idi na stranicu o nama"
+  },
+  "LocaleSwitch": {
+    "label": "Promijeni jezik",
+    "locale": "{locale, select, pl {Poljski} en {Engleski} other {Nepoznato}}"
+  },
+  "ProductDetails": {
+    "add-to-cart": "Dodaj u košaricu",
+    "product-unavailable": "Proizvod nije dostupan",
+    "description": "Opis",
+    "price": "Cijena",
+    "color": "Boja",
+    "choose-color": "Odaberi boju",
+    "size": "Veličina",
+    "choose-size": "Odaberi veličinu",
+    "product-info": "Informacije o proizvodu",
+    "reviews": "Recenzije",
+    "sizing-chart": "Pogledaj tablicu veličina",
+    "additional-details": "Dodatni detalji",
+    "add-to-favs": "Dodaj u favorite",
+    "stock-left": "Preostalo na zalihi:",
+    "maximum-stock": "Već imate maksimalnu količinu ovog artikla u košarici."
+  },
+  "ProductList": {
+    "variants-singular": "varijanta",
+    "variants-plural": "varijante",
+    "filters": "Filteri",
+    "categories": "Kategorije",
+    "products": "Proizvodi",
+    "close-filters": "Zatvori filtere",
+    "sort": "Sortiraj",
+    "most-popular": "Najpopularniji",
+    "newest": "Najnoviji",
+    "price-low-to-high": "Cijena: od najniže",
+    "price-high-to-low": "Cijena: od najviše",
+    "color": "Boja",
+    "size": "Veličina"
+  },
+  "Cart": {
+    "title": "Košarica",
+    "close-panel": "Zatvori panel",
+    "remove": "Ukloni",
+    "subtotal": "Međuzbroj",
+    "subtotal-info": "Dostava će biti izračunata pri naplati.",
+    "checkout": "Naplata",
+    "or": "ili",
+    "continue-shopping": "Nastavi kupovinu"
+  },
+  "WishList": {
+    "title": "Lista želja",
+    "close-panel": "Zatvori panel",
+    "remove": "Ukloni",
+    "add-to-cart": "Dodaj u košaricu",
+    "unavailable": "Proizvod nije dostupan"
+  },
+  "LoginForm": {
+    "title": "Prijavite se na svoj račun",
+    "email": "Email adresa",
+    "password": "Lozinka",
+    "submit": "Prijava",
+    "forgot-password": "Zaboravljena lozinka?",
+    "no-account": "Nemate račun?",
+    "register-now": "Registrirajte se!",
+    "verified-success": "Email je uspješno verificiran. Sada se možete prijaviti.",
+    "verified-fail": "Verifikacija emaila nije uspjela. Pokušajte ponovno ili kontaktirajte podršku.",
+    "errors": {
+      "email": "Neispravna email adresa",
+      "email-empty": "Email adresa ne može biti prazna",
+      "password": "Lozinka ne može biti prazna",
+      "auth": "Neispravna email adresa ili lozinka",
+      "server-error": "Interna greška servera. Kontaktirajte podršku."
+    }
+  },
+  "RegisterForm": {
+    "title": "Kreirajte račun",
+    "email": "Email adresa",
+    "password": "Lozinka",
+    "confirm-password": "Potvrdite lozinku",
+    "submit": "Registracija",
+    "success": "Račun je uspješno kreiran. Email s potvrdom je poslan.",
+    "have-account": "Već imate račun?",
+    "login-now": "Prijavite se ovdje!",
+    "errors": {
+      "email": "Neispravna email adresa",
+      "email-empty": "Email adresa ne može biti prazna",
+      "password": "Lozinka ne može biti prazna",
+      "password-length": "Lozinka mora imati najmanje 8 znakova",
+      "passwords-mismatch": "Lozinke se ne podudaraju",
+      "server-error": "Interna greška servera. Kontaktirajte podršku."
+    }
+  },
+  "CheckoutFormServer": {
+    "checkout": "Naplata"
+  },
+  "CheckoutForm": {
+    "form": {
+      "buy-as": "Kupujete kao",
+      "individual": "Osoba",
+      "company": "Tvrtka",
+      "shipping-address": "Adresa dostave",
+      "other-invoice": "Želim primiti račun s drugim podacima",
+      "full-name": "Puno ime ili naziv tvrtke",
+      "full-name-placeholder": "Ivan Horvat",
+      "tin": "OIB",
+      "tin-placeholder": "12345678901",
+      "address": "Adresa",
+      "address-placeholder": "Ulica 123",
+      "city": "Grad",
+      "city-placeholder": "Zagreb",
+      "country": "Država",
+      "country-placeholder": "Hrvatska",
+      "region": "Regija",
+      "region-placeholder": "Zagreb",
+      "email": "Email",
+      "email-placeholder": "ivan.horvat@example.com",
+      "phone": "Telefon",
+      "phone-placeholder": "+385 91 123 4567",
+      "postal-code": "Poštanski broj",
+      "postal-code-placeholder": "10000",
+      "delivery-method": "Način dostave",
+      "payment-method": "Način plaćanja",
+      "change": "Promijeni",
+      "invoice-data": "Podaci za račun",
+      "no-shipping": "Nema dostupnih načina dostave, kontaktirajte podršku.",
+      "internal-server-error": "Došlo je do neočekivane greške. Kontaktirajte podršku."
+    },
+    "change-address-dialog": {
+      "change-address": "Promijenite adresu",
+      "add-new": "Dodaj novu adresu",
+      "save": "Spremi"
+    },
+    "add-address-dialog": {
+      "add-address": "Dodaj novu adresu",
+      "save": "Spremi",
+      "saving": "Spremanje..."
+    },
+    "countries": {
+      "ad": "Andora",
+      "al": "Albanija",
+      "at": "Austrija",
+      "ba": "Bosna i Hercegovina",
+      "be": "Belgija",
+      "bg": "Bugarska",
+      "by": "Bjelorusija",
+      "ch": "Švicarska",
+      "cy": "Cipar",
+      "cz": "Češka",
+      "de": "Njemačka",
+      "dk": "Danska",
+      "ee": "Estonija",
+      "es": "Španjolska",
+      "fi": "Finska",
+      "fr": "Francuska",
+      "gb": "Ujedinjeno Kraljevstvo",
+      "gr": "Grčka",
+      "hr": "Hrvatska",
+      "hu": "Mađarska",
+      "ie": "Irska",
+      "is": "Island",
+      "it": "Italija",
+      "li": "Lihtenštajn",
+      "lt": "Litva",
+      "lu": "Luksemburg",
+      "lv": "Latvija",
+      "mc": "Monako",
+      "md": "Moldavija",
+      "me": "Crna Gora",
+      "mk": "Sjeverna Makedonija",
+      "mt": "Malta",
+      "nl": "Nizozemska",
+      "no": "Norveška",
+      "pl": "Poljska",
+      "pt": "Portugal",
+      "ro": "Rumunjska",
+      "rs": "Srbija",
+      "ru": "Rusija",
+      "se": "Švedska",
+      "si": "Slovenija",
+      "sk": "Slovačka",
+      "sm": "San Marino",
+      "ua": "Ukrajina",
+      "va": "Vatikan",
+      "us": "Sjedinjene Američke Države",
+      "other": "Ostalo"
+    },
+    "errors": {
+      "invoice": {
+        "name": "Ime ne može biti prazno",
+        "address": "Adresa ne može biti prazna",
+        "city": "Grad ne može biti prazan",
+        "country": "Država ne može biti prazna",
+        "region": "Regija ne može biti prazna",
+        "postalCode": "Poštanski broj ne može biti prazan",
+        "tin": "OIB ne može biti prazan"
+      },
+      "shipping": {
+        "name": "Ime ne može biti prazno",
+        "address": "Adresa ne može biti prazna",
+        "city": "Grad ne može biti prazan",
+        "country": "Država ne može biti prazna",
+        "region": "Regija ne može biti prazna",
+        "postalCode": "Poštanski broj ne može biti prazan",
+        "phone": "Neispravan broj telefona",
+        "email": "Neispravna email adresa"
+      },
+      "deliveryMethod": "Morate odabrati način dostave",
+      "paymentMethod": "Morate odabrati način plaćanja"
+    }
+  },
+  "DeliveryMethods": {
+    "inpost-pickup": "InPost paketomati",
+    "inpost-courier": "InPost kurir",
+    "choose-pickup": "Odaberi lokaciju",
+    "close": "Zatvori"
+  },
+  "OrderSummary": {
+    "subtotal": "Međuzbroj",
+    "shipping": "Dostava",
+    "total": "Ukupno",
+    "confirm": "Potvrdi narudžbu",
+    "processing": "Obrada...",
+    "remove": "Ukloni",
+    "items-in-cart": "Artikli u vašoj košarici",
+    "order-summary": "Sažetak narudžbe"
+  },
+  "Account": {
+    "navigation": {
+      "orders": "Narudžbe",
+      "settings": "Postavke",
+      "orders-data": "Podaci za narudžbe",
+      "help": "Pomoć"
+    },
+    "orders": {
+      "title": "Narudžbe",
+      "pending": "<yellow>Na čekanju</yellow>",
+      "paid": "<green>Plaćeno</green>",
+      "unpaid": "<red>Nije plaćeno</red>",
+      "processing": "<yellow>Obrada</yellow>",
+      "shipped": "<green>Poslano</green>",
+      "completed": "<green>Dovršeno</green>",
+      "cancelled": "<red>Otkazano</red>",
+      "returned": "<red>Vraćeno</red>"
+    },
+    "orders-data": {
+      "title": "Podaci za narudžbe",
+      "add-new": "Dodaj novu adresu",
+      "set-as-default": "Postavi kao zadanu"
+    },
+    "settings": {
+      "title": "Postavke računa",
+      "firstName": "Ime",
+      "lastName": "Prezime",
+      "birthDate": "Datum rođenja",
+      "email": "Email adresa",
+      "password": "Lozinka",
+      "change-password": "Promijeni lozinku",
+      "old-password": "Stara lozinka",
+      "new-password": "Nova lozinka",
+      "confirm-password": "Potvrdi novu lozinku",
+      "save": "Spremi",
+      "update": "Ažuriraj",
+      "password-form": {
+        "success": "Lozinka je uspješno promijenjena. Možete zatvoriti ovaj prozor.",
+        "errors": {
+          "old-password": "Stara lozinka ne može biti prazna",
+          "new-password": "Nova lozinka ne može biti prazna",
+          "password-length": "Lozinka mora imati najmanje 8 znakova",
+          "passwords-mismatch": "Lozinke se ne podudaraju",
+          "password-incorrect": "Stara lozinka je netočna",
+          "password-same": "Nova lozinka ne može biti ista kao stara",
+          "server-error": "Interna greška servera. Kontaktirajte podršku."
+        }
+      }
+    },
+    "wrapper": {
+      "my-account": "Moj račun",
+      "logout": "Odjava"
+    }
+  },
+  "Order": {
+    "thank-you": "Hvala!",
+    "pending": {
+      "title": "Vaša narudžba je na čekanju.",
+      "subtitle": "Pričekajte dok se uplata obradi. Narudžba {orderID}"
+    },
+    "paid": {
+      "title": "Uplata je primljena.",
+      "subtitle": "Uskoro ćemo započeti obradu vaše narudžbe. Narudžba {orderID}"
+    },
+    "unpaid": {
+      "title": "Uplata nije uspjela.",
+      "subtitle": "Pokušajte ponovno ili kontaktirajte podršku. Narudžba {orderID}"
+    },
+    "processing": {
+      "title": "Obrađujemo vašu narudžbu.",
+      "subtitle": "Narudžba {orderID} će uskoro biti poslana."
+    },
+    "shipped": {
+      "title": "Na putu je!",
+      "subtitle": "Vaša narudžba {orderID} je poslana."
+    },
+    "completed": {
+      "title": "Dovršeno!",
+      "subtitle": "Primili ste svoju narudžbu {orderID}."
+    },
+    "cancelled": {
+      "title": "Otkazano.",
+      "subtitle": "Narudžba {orderID} je otkazana."
+    },
+    "returned": {
+      "title": "Vraćeno.",
+      "subtitle": "Narudžba {orderID} je vraćena."
+    },
+    "tracking-number": "Broj za praćenje: ",
+    "your-order": "Vaša narudžba",
+    "items": "Artikli",
+    "quantity": "Količina",
+    "price": "Cijena",
+    "your-information": "Vaši podaci",
+    "shipping-address": "Adresa dostave",
+    "shipping-method": "Način dostave",
+    "summary": "Sažetak",
+    "subtotal": "Međuzbroj",
+    "shipping": "Dostava",
+    "total": "Ukupno",
+    "pickup-point": "Mjesto preuzimanja"
+  },
+  "Emails": {
+    "reset-password": {
+      "greeting": "Pozdrav {name},",
+      "message": "Netko je zatražio resetiranje lozinke za vaš račun. Ako to niste bili vi, zanemarite ovaj email.",
+      "subject": "Resetirajte lozinku",
+      "button": "Resetiraj lozinku",
+      "body": "Kliknite na link ispod za resetiranje lozinke"
+    },
+    "verify-email": {
+      "greeting": "Pozdrav {name},",
+      "subject": "Verificirajte svoj email",
+      "button": "Verificiraj email",
+      "body": "Kliknite na link ispod za verifikaciju emaila"
+    },
+    "welcome": {
+      "greeting": "Pozdrav {name},",
+      "preview": "Dobrodošli u našu trgovinu! Drago nam je što ste ovdje",
+      "subject": "Dobrodošli u našu trgovinu",
+      "body": "Hvala što ste kreirali račun u našoj trgovini. Nadamo se da ćete uživati u kupovini.",
+      "button": "Idi u kupovinu"
+    }
+  },
+  "ResetPasswordForm": {
+    "new-password": "Nova lozinka",
+    "confirm-password": "Potvrdi lozinku",
+    "change-password": "Promijeni lozinku",
+    "title": "Resetirajte lozinku",
+    "errors": {
+      "old-password": "Stara lozinka ne može biti prazna",
+      "new-password": "Nova lozinka ne može biti prazna",
+      "password-length": "Lozinka mora imati najmanje 8 znakova",
+      "passwords-mismatch": "Lozinke se ne podudaraju",
+      "password-incorrect": "Stara lozinka je netočna",
+      "password-same": "Nova lozinka ne može biti ista kao stara",
+      "server-error": "Interna greška servera. Kontaktirajte podršku."
+    }
+  },
+  "Search": {
+    "no-results": "Nema rezultata.",
+    "results": "Rezultati za: ",
+    "search": "Pretraži...",
+    "categories": "Kategorije",
+    "products": "Proizvodi"
+  }
+}

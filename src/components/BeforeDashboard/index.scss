@@ -1,0 +1,53 @@
+@import "~@payloadcms/ui/scss";
+
+
+:root {
+  /* PRIMARY BRAND COLORS */
+  --primary: #fed24d;        /* Gold / Brown accent */
+  --primary-light: #fed24d;  /* Lighter Gold (hover, highlight) */
+
+  /* DARK THEME */
+  --dark: #7c1502;           /* Main dark header/menu */
+   --light-dark: #EEEEEE;  
+  --gray-dark: #413b3b;   /* Dark gray */
+  --gray-darker: #222222; /* Darker gray */
+  --dark-border: #2A2A2A;    /* Border dark gray */
+  --dark-light: #eeeeee;     /* Sidebar / subtle BG */
+
+  /* BASE COLORS */
+  --white: #ffffff;
+  --black: #000000;
+  --light-bg: #f5f5f5;
+  ---button-hover: #f0f0f0;
+  --button:#fed24d;
+
+  /* EXTRA OPTIONAL */
+  --gold-tint: #E5D5B4;
+  --old-topbar: #E7B285;
+}
+
+.dashboard .before-dashboard {
+  margin-bottom: base(1.5);
+
+  &__banner {
+    & h4 {
+      margin: 0;
+    }
+  }
+
+  &__instructions {
+    list-style: decimal;
+    margin-bottom: base(0.5);
+
+    & li {
+      width: 100%;
+    }
+  }
+
+  & a:hover {
+    opacity: 0.85;
+  }
+}
+
+
+
